@@ -180,7 +180,6 @@ services:
     image: "${SCHEDULER_IMAGE_AND_TAG}"
 
   mlserver:
-    user: "${UID_GID}"   
     image: "${SERVER_MLSERVER_IMAGE_AND_TAG}"
     command:
       - "mlserver"
